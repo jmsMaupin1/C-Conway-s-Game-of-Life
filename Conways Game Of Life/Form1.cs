@@ -22,7 +22,7 @@ namespace Conways_Game_Of_Life
             linePen = new Pen(System.Drawing.Color.Black);
             gfx = this.CreateGraphics();
 
-            drawGrid();
+            CGOLBoard board = new CGOLBoard(5,5);
         }
 
         protected void drawGrid()
