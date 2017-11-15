@@ -51,6 +51,7 @@
             this.btnNextGeneration.TabIndex = 1;
             this.btnNextGeneration.Text = "Next Generation";
             this.btnNextGeneration.UseVisualStyleBackColor = true;
+            this.btnNextGeneration.Click += new System.EventHandler(this.btnNextGeneration_Click);
             // 
             // Form1
             // 
